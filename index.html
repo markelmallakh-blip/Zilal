@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zilal Cooling — Precision Cooling Solutions For Every Scale</title>
+  <meta name="description" content="Since 2013, Zilal Cooling has been delivering commercial and industrial refrigeration solutions designed around the needs of every project.">
+  <link rel="icon" href="assets/img/zilal-logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500&family=Barlow:wght@600&family=Montserrat:wght@600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <!-- ============================== Header ============================== -->
+  <header class="site-header">
+    <div class="site-header__bar site-header__bar--main">
+      <a class="site-header__logo" href="#" aria-label="Zilal Cooling — home">
+        <img src="assets/img/zilal-logo.png" width="50" height="51" alt="">
+      </a>
+
+      <nav class="site-nav" aria-label="Main">
+        <a href="#" aria-current="page">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#projects">Projects</a>
+        <a href="#">Spare Parts</a>
+        <a href="#">Blogs</a>
+        <a href="#">Careers</a>
+      </nav>
+    </div>
+
+    <span class="site-header__link" aria-hidden="true"></span>
+
+    <div class="site-header__bar site-header__bar--aside">
+      <a class="site-header__lang" href="#" lang="ar" dir="rtl">تصفح بالعربية</a>
+      <a class="btn btn--primary btn--talk" href="#contact">
+        <span>Let’s Talk</span>
+        <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================= Hero → About scroll stage ======================= -->
+    <!--
+      The stage pins while its track scrolls; scroll progress scrubs the video
+      forward (and back when scrolling up) and cross-fades the copy.
+    -->
+    <section class="scroll-stage" data-scroll-stage aria-label="Introduction">
+      <div class="scroll-stage__pin">
+        <div class="scroll-stage__media" aria-hidden="true">
+          <video class="scroll-stage__video" data-scroll-video
+                 src="assets/video/zilal-hero.mp4" poster="assets/img/hero-poster.jpg"
+                 muted playsinline preload="auto" disablepictureinpicture></video>
+          <div class="scroll-stage__tint"></div>
+        </div>
+
+        <div class="stage-panel stage-panel--hero" data-panel="hero">
+          <div class="container">
+            <p class="eyebrow eyebrow--boxed" data-reveal>Refrigeration Engineering</p>
+            <h1 class="hero__title" data-reveal>Precision Cooling Solutions For Every Scale</h1>
+            <a class="btn btn--primary btn--hero" href="#solutions" data-reveal>
+              <span>Explore Solutions</span>
+              <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="stage-panel stage-panel--about" id="about" data-panel="about">
+          <div class="container about__inner">
+            <div class="about__copy">
+              <p class="eyebrow" data-reveal>About Zilal</p>
+              <h2 class="about__title" data-reveal>Refrigeration Expertise Built Around Your Needs</h2>
+              <p class="about__text" data-reveal>Since 2013, Zilal Cooling has been delivering commercial and industrial refrigeration solutions designed around the needs of every project.</p>
+            </div>
+
+            <ul class="stats" data-reveal>
+              <li class="stats__item"><span class="stats__value">25+</span><span class="stats__label">Years of Experience</span></li>
+              <li class="stats__item"><span class="stats__value">500+</span><span class="stats__label">Projects Completed</span></li>
+              <li class="stats__item"><span class="stats__value">50+</span><span class="stats__label">Brand Partners</span></li>
+              <li class="stats__item"><span class="stats__value">8</span><span class="stats__label">Branches Nationwide</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Why Choose Zilal ========================= -->
+    <!--
+      Pinned horizontal gallery: vertical scroll drives the track sideways,
+      media drift at their own depth, and copy is revealed through an orange mask.
+      Item geometry (--x/--y/--w/--h) is taken from the Figma frame, in px.
+    -->
+    <section class="why" data-why aria-labelledby="why-title">
+      <a class="touch-badge" href="#contact" aria-label="Get in touch">
+        <svg class="touch-badge__ring" viewBox="0 0 100 100" aria-hidden="true">
+          <defs><path id="touch-circle" d="M50 50m-37 0a37 37 0 1 1 74 0a37 37 0 1 1-74 0"/></defs>
+          <text><textPath href="#touch-circle" textLength="228">GET IN TOUCH · GET IN TOUCH ·</textPath></text>
+        </svg>
+        <svg class="touch-badge__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+
+      <div class="why__pin">
+        <div class="why__track" data-why-track>
+
+          <div class="why-item why-intro" style="--x:60; --y:13; --w:470">
+            <p class="eyebrow eyebrow--sm" data-mask><span>Why Choose Zilal</span></p>
+            <h2 class="why__title" id="why-title" data-mask>
+              <span>Built To Keep Your</span>
+              <span>Business Moving.</span>
+            </h2>
+          </div>
+
+          <figure class="why-item why-media why-media--hero" style="--x:635; --y:0; --w:631; --h:640" data-depth="1">
+            <img src="assets/img/why-compressor.jpg" alt="Compressor and copper refrigeration pipework" loading="lazy">
+          </figure>
+          <figure class="why-item why-media" style="--x:1297; --y:0; --w:319; --h:319" data-depth="1.1">
+            <img src="assets/img/why-engineers.jpg" alt="Engineers inspecting a cold-storage facility" loading="lazy">
+          </figure>
+          <figure class="why-item why-media" style="--x:1519; --y:435; --w:194; --h:194" data-depth="0.86">
+            <img src="assets/img/why-plant-team.jpg" alt="Technicians working in a refrigeration plant" loading="lazy">
+          </figure>
+
+          <article class="why-item why-copy" style="--x:1672; --y:0; --w:700">
+            <h3 class="why-copy__title" data-mask><span>Engineered For Performance</span></h3>
+            <p class="why-copy__text" data-mask data-split>Every system is designed to deliver stable performance, reliable operation, and consistent cooling in demanding environments.</p>
+          </article>
+
+          <figure class="why-item why-media" style="--x:2140; --y:293; --w:196; --h:281" data-depth="0.9">
+            <img src="assets/img/why-cold-room.jpg" alt="Insulated cold-room doors" loading="lazy">
+          </figure>
+          <figure class="why-item why-media" style="--x:2466; --y:0; --w:196; --h:194" data-depth="1.12">
+            <img src="assets/img/why-plant.jpg" alt="Industrial refrigeration plant" loading="lazy">
+          </figure>
+          <figure class="why-item why-media" style="--x:2599; --y:371; --w:241; --h:241" data-depth="0.94">
+            <img src="assets/img/why-evaporators.jpg" alt="Ceiling-mounted evaporator units" loading="lazy">
+          </figure>
+
+          <article class="why-item why-copy" style="--x:2880; --y:384; --w:700">
+            <h3 class="why-copy__title" data-mask><span>Smarter Cooling</span></h3>
+            <p class="why-copy__text" data-mask data-split>We combine proven technology with smarter engineering to reduce energy use, improve performance, and create more efficient systems.</p>
+          </article>
+
+          <figure class="why-item why-media" style="--x:3795; --y:0; --w:246; --h:246" data-depth="1.08">
+            <img src="assets/img/why-technician.jpg" alt="Technician adjusting refrigeration controls" loading="lazy">
+          </figure>
+          <figure class="why-item why-media" style="--x:3913; --y:435; --w:180; --h:180" data-depth="0.88">
+            <img src="assets/img/why-condensers.jpg" alt="Condensing units in a plant room" loading="lazy">
+          </figure>
+
+          <article class="why-item why-copy" style="--x:4097; --y:0; --w:700">
+            <h3 class="why-copy__title" data-mask><span>Reliability You Can Count On</span></h3>
+            <p class="why-copy__text" data-mask data-split>From components to complete systems, we focus on dependable performance that keeps your operation running with confidence.</p>
+          </article>
+
+          <figure class="why-item why-media" style="--x:4515; --y:340; --w:246; --h:272" data-depth="1.1">
+            <img src="assets/img/why-retail.jpg" alt="Refrigerated retail aisle" loading="lazy">
+          </figure>
+
+          <span class="why__end" style="--x:4821" aria-hidden="true"></span>
+        </div>
+
+        <div class="why__progress" aria-hidden="true"><span data-why-bar></span></div>
+      </div>
+    </section>
+
+    <!-- ========================= Partners ========================= -->
+    <section class="partners" aria-labelledby="partners-title">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--sm" data-mask><span>Partners In Success</span></p>
+          <h2 class="section-title section-title--lg" id="partners-title" data-mask>
+            <span>Trusted by <em>+40</em> Industry Leaders</span>
+          </h2>
+          <svg class="partners__arrow" data-draw viewBox="0 0 60 180" aria-hidden="true">
+            <path pathLength="1" d="M33 4c-9 8-16 21-9 32 5 7 15 3 12-6-3-8-15-5-18 5-6 20 8 44 14 70 5 22-2 45-3 63"/>
+            <path pathLength="1" d="M18 162l11 14 11-16"/>
+          </svg>
+        </header>
+
+        <div class="partners__panel" data-reveal-up>
+          <ul class="partners__grid" data-partners>
+            <li><img src="assets/img/logos/danfoss.png" alt="Danfoss" loading="lazy"></li>
+            <li><img src="assets/img/logos/kriwan.png" alt="Kriwan" loading="lazy"></li>
+            <li><img src="assets/img/logos/hidria.png" alt="Hidria" loading="lazy"></li>
+            <li><img src="assets/img/logos/ebmpapst.png" alt="ebm-papst" loading="lazy"></li>
+            <li><img src="assets/img/logos/refco.png" alt="Refco" loading="lazy"></li>
+            <li><img src="assets/img/logos/eliwell.png" alt="Eliwell by Schneider Electric" loading="lazy"></li>
+            <li><img src="assets/img/logos/hispania.png" alt="Hispania" loading="lazy"></li>
+
+            <li><img src="assets/img/logos/eliwell.png" alt="Eliwell by Schneider Electric" loading="lazy"></li>
+            <li><img src="assets/img/logos/friga-bohn.png" alt="Friga-Bohn" loading="lazy"></li>
+            <li><img src="assets/img/logos/castel.png" alt="Castel" loading="lazy"></li>
+            <li><img src="assets/img/logos/lu-ve.png" alt="LU-VE Group" loading="lazy"></li>
+            <li><img src="assets/img/logos/sarbuz.png" alt="Sarbuz Heat Exchangers" loading="lazy"></li>
+            <li><img src="assets/img/logos/swep.png" alt="SWEP" loading="lazy"></li>
+            <li><img src="assets/img/logos/hidria.png" alt="Hidria" loading="lazy"></li>
+
+            <li><img src="assets/img/logos/danfoss.png" alt="Danfoss" loading="lazy"></li>
+            <li><img src="assets/img/logos/kriwan.png" alt="Kriwan" loading="lazy"></li>
+            <li><img src="assets/img/logos/hidria.png" alt="Hidria" loading="lazy"></li>
+            <li><img src="assets/img/logos/ebmpapst.png" alt="ebm-papst" loading="lazy"></li>
+            <li><img src="assets/img/logos/refco.png" alt="Refco" loading="lazy"></li>
+            <li><img src="assets/img/logos/eliwell.png" alt="Eliwell by Schneider Electric" loading="lazy"></li>
+            <li><img src="assets/img/logos/hispania.png" alt="Hispania" loading="lazy"></li>
+
+            <li class="is-extra"><img src="assets/img/logos/castel.png" alt="Castel" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/swep.png" alt="SWEP" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/lu-ve.png" alt="LU-VE Group" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/friga-bohn.png" alt="Friga-Bohn" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/sarbuz.png" alt="Sarbuz Heat Exchangers" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/danfoss.png" alt="Danfoss" loading="lazy"></li>
+            <li class="is-extra"><img src="assets/img/logos/kriwan.png" alt="Kriwan" loading="lazy"></li>
+          </ul>
+          <button class="partners__more" type="button" data-partners-toggle aria-expanded="false">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg>
+            <span>Show More</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Products ========================= -->
+    <section class="products" id="products" aria-labelledby="products-title">
+      <div class="products__bg-clip" aria-hidden="true">
+        <div class="products__bg" data-parallax="0.12">
+          <img src="assets/img/products-bg.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+
+      <div class="products__badge" data-reveal-up aria-hidden="true">
+        <strong>100%</strong><span>Guaranteed</span>
+      </div>
+
+      <div class="products__inner">
+        <h2 class="section-title section-title--lg section-title--light" id="products-title" data-mask>
+          <span>Products Engineered For</span>
+          <span>Uncompromising Reliability.</span>
+        </h2>
+
+        <div class="products__rail" data-marquee data-reveal-up>
+          <div class="products__track">
+          <article class="product-card">
+            <h3 class="product-card__title">Compressors</h3>
+            <p class="product-card__text">High-performance compressors engineered for reliable operation, efficient cooling, and consistent performance across demanding applications.</p>
+            <a class="icon-btn" href="#" aria-label="Explore compressors"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-card__title">Condensing Units</h3>
+            <p class="product-card__text">Factory-matched condensing solutions designed for dependable performance, easy integration, and efficient temperature control.</p>
+            <a class="icon-btn" href="#" aria-label="Explore condensing units"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-card__title">Evaporators</h3>
+            <p class="product-card__text">Precision-engineered evaporators built for efficient heat transfer and reliable cooling across commercial and industrial applications.</p>
+            <a class="icon-btn" href="#" aria-label="Explore evaporators"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-card__title">Components</h3>
+            <p class="product-card__text">Genuine valves, controls, and spare parts from trusted brands that keep every refrigeration system running at its best.</p>
+            <a class="icon-btn" href="#" aria-label="Explore components"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Solutions ========================= -->
+    <section class="solutions" id="solutions" aria-labelledby="solutions-title">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--sm eyebrow--plain" data-mask><span>Zilal Solutions</span></p>
+          <h2 class="section-title" id="solutions-title" data-mask>
+            <span>Cooling Systems Built Around</span>
+            <span>Your Operation.</span>
+          </h2>
+        </header>
+
+        <div class="solutions__layout">
+          <div class="solutions__visual" aria-hidden="true">
+            <div class="solutions__frame">
+              <img class="is-active" src="assets/img/solution-supermarket.jpg" alt="" data-solution-img="0" loading="lazy">
+              <img src="assets/img/why-cold-room.jpg" alt="" data-solution-img="1" loading="lazy">
+              <img src="assets/img/solution-industrial.jpg" alt="" data-solution-img="2" loading="lazy">
+              <img src="assets/img/why-retail.jpg" alt="" data-solution-img="3" loading="lazy">
+            </div>
+          </div>
+
+          <ol class="solutions__list">
+            <li class="solution is-active" data-solution="0">
+              <img class="solution__thumb" src="assets/img/solution-supermarket.jpg" alt="" loading="lazy">
+              <h3 class="solution__title">Supermarket Refrigeration</h3>
+              <p class="solution__text">Efficient multi-case systems designed for retail continuity.</p>
+              <a class="btn btn--outline" href="#"><span>Explore</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+            </li>
+            <li class="solution" data-solution="1">
+              <img class="solution__thumb" src="assets/img/why-cold-room.jpg" alt="" loading="lazy">
+              <h3 class="solution__title">Cold Storage Solutions</h3>
+              <p class="solution__text">Complete temperature-controlled facilities from concept to commissioning.</p>
+              <a class="btn btn--outline" href="#"><span>Explore</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+            </li>
+            <li class="solution" data-solution="2">
+              <img class="solution__thumb" src="assets/img/solution-industrial.jpg" alt="" loading="lazy">
+              <h3 class="solution__title">Industrial Refrigeration</h3>
+              <p class="solution__text">High-capacity engineering for demanding production environments.</p>
+              <a class="btn btn--outline" href="#"><span>Explore</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+            </li>
+            <li class="solution" data-solution="3">
+              <img class="solution__thumb" src="assets/img/why-retail.jpg" alt="" loading="lazy">
+              <h3 class="solution__title">Commercial Refrigeration</h3>
+              <p class="solution__text">Dependable systems for hospitality, foodservice and commerce.</p>
+              <a class="btn btn--outline" href="#"><span>Explore</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+            </li>
+          </ol>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn btn--primary btn--sm" href="#"><span>Explore All Solutions</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Projects ========================= -->
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--sm eyebrow--plain" data-mask><span>Selected Projects</span></p>
+          <h2 class="section-title" id="projects-title" data-mask>
+            <span>Infrastructure that keeps</span>
+            <span>business moving.</span>
+          </h2>
+        </header>
+
+        <div class="projects__list">
+          <article class="project-card">
+            <div class="project-card__media" data-parallax="0.08"><img src="assets/img/project-panda-bakery.jpg" alt="Panda Market bakery aisle" loading="lazy"></div>
+            <div class="project-card__info" data-reveal-up>
+              <span class="chip">Supermarket Refrigeration</span>
+              <h3 class="project-card__title">Panda Market El Madinah</h3>
+              <p class="project-card__text">We Know that new and fresh things are born from time &amp; space, as well as process. You can join in, and say “bye,bye,bye” to the dull tasks.</p>
+              <div class="project-card__foot">
+                <img src="assets/img/logos/panda.png" width="119" height="74" alt="Panda" loading="lazy">
+                <a class="icon-btn icon-btn--lg" href="#" aria-label="View Panda Market El Madinah project"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media" data-parallax="0.08"><img src="assets/img/project-cold-storage.jpg" alt="Produce cold room with evaporators" loading="lazy"></div>
+            <div class="project-card__info" data-reveal-up>
+              <span class="chip">Cold Storage</span>
+              <h3 class="project-card__title">Panda Market El Madinah</h3>
+              <p class="project-card__text">We Know that new and fresh things are born from time &amp; space, as well as process. You can join in, and say “bye,bye,bye” to the dull tasks.</p>
+              <div class="project-card__foot">
+                <img src="assets/img/logos/panda.png" width="119" height="74" alt="Panda" loading="lazy">
+                <a class="icon-btn icon-btn--lg" href="#" aria-label="View cold storage project"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media" data-parallax="0.08"><img src="assets/img/solution-industrial.jpg" alt="Industrial refrigeration plant hall" loading="lazy"></div>
+            <div class="project-card__info" data-reveal-up>
+              <span class="chip">Cold Storage</span>
+              <h3 class="project-card__title">Panda Market El Madinah</h3>
+              <p class="project-card__text">We Know that new and fresh things are born from time &amp; space, as well as process. You can join in, and say “bye,bye,bye” to the dull tasks.</p>
+              <div class="project-card__foot">
+                <img src="assets/img/logos/panda.png" width="119" height="74" alt="Panda" loading="lazy">
+                <a class="icon-btn icon-btn--lg" href="#" aria-label="View industrial project"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn btn--primary btn--sm" href="#"><span>Explore All Projects</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Get in touch ========================= -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__head">
+          <div>
+            <p class="eyebrow eyebrow--sm eyebrow--plain" data-mask><span>Get In Touch</span></p>
+            <h2 class="section-title section-title--light" id="contact-title" data-mask><span>Ready to Start Your Project?</span></h2>
+            <p class="contact__text" data-reveal-up>Tell us your cooling requirements. Our engineering team will help<br>define a reliable, efficient solution for your operation.</p>
+          </div>
+          <a class="btn btn--primary btn--xl" href="mailto:info@zilalcooling.com" data-reveal-up><span>Let’s Talk</span><svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M13 5l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="journey" data-journey>
+          <svg class="journey__lines" viewBox="0 0 1392 460" preserveAspectRatio="none" aria-hidden="true">
+            <path pathLength="1" d="M0 70H355q30 0 30 30v80q0 30 30 30H845q30 0 30-30V60q0-30 30-30H1070q30 0 30 30v240q0 30 30 30H1392"/>
+            <path pathLength="1" d="M0 290H270q30 0 30-30V150q0-30 30-30H615q30 0 30-30V100q0-30 30-30H945q30 0 30 30v300q0 30 30 30H1392"/>
+          </svg>
+          <span class="journey__step" style="--sx:1%;  --sy:18%">Consultation &amp; Design</span>
+          <span class="journey__step" style="--sx:29%; --sy:38%">Equipment Supply</span>
+          <span class="journey__step" style="--sx:48%; --sy:0%">Professional Installation</span>
+          <span class="journey__step journey__step--end" style="--sx:100%; --sy:57%">Testing &amp; After-Sales</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== Footer ============================== -->
+  <footer class="site-footer">
+    <div class="site-footer__card">
+      <div class="site-footer__top">
+        <img src="assets/img/zilal-logo.png" width="91" height="93" alt="Zilal Cooling" loading="lazy">
+        <p class="site-footer__tagline">Your Best Cooling<br>Solution Choice In KSA</p>
+      </div>
+
+      <div class="site-footer__main">
+        <nav class="site-footer__cols" aria-label="Footer">
+          <div>
+            <h3>Company</h3>
+            <ul><li><a href="#about">About Us</a></li><li><a href="#projects">Projects</a></li><li><a href="#">Blogs</a></li><li><a href="#">Careers</a></li></ul>
+          </div>
+          <div>
+            <h3>Products</h3>
+            <ul><li><a href="#products">Compressors</a></li><li><a href="#products">Condensing Units</a></li><li><a href="#products">Evaporators</a></li><li><a href="#products">Components</a></li></ul>
+          </div>
+          <div>
+            <h3>Solutions</h3>
+            <ul><li><a href="#solutions">Cold Storage</a></li><li><a href="#solutions">Supermarkets</a></li><li><a href="#solutions">Industrial</a></li><li><a href="#solutions">Commercial</a></li></ul>
+          </div>
+          <div>
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">Spare Parts</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a class="with-icon" href="tel:+966538898579"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>+966 53 889 8579</a></li>
+              <li><a class="with-icon" href="#contact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg>+966 53 889 8579</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="site-footer__news">
+          <h3>Join Our Newsletter</h3>
+          <form class="newsletter" onsubmit="event.preventDefault()">
+            <label class="visually-hidden" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Enter Email Address" autocomplete="email">
+            <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3L10 14M21 3l-7 18-4-7-7-4z"/></svg></button>
+          </form>
+          <ul class="socials">
+            <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 00-1.6 19.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0012 2z"/></svg></a></li>
+            <li><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2a3 3 0 00-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 002 8.2 31 31 0 001.6 12a31 31 0 00.4 3.8 3 3 0 002.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 002.1-2.1 31 31 0 00.4-3.8 31 31 0 00-.4-3.8zM10 15V9l5.2 3z"/></svg></a></li>
+            <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 3h10a4 4 0 014 4v10a4 4 0 01-4 4H7a4 4 0 01-4-4V7a4 4 0 014-4zm5 5a4 4 0 100 8 4 4 0 000-8zm5.5-1.5h0"/></svg></a></li>
+            <li><a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 5.8A4.3 4.3 0 0115.5 3h-3.2v12.6a2.6 2.6 0 11-2.6-2.6c.3 0 .5 0 .8.1V9.8a5.8 5.8 0 105 5.8V9.2a7.4 7.4 0 004.3 1.4V7.4a4.3 4.3 0 01-3.2-1.6z"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>© 2026 Zilal Cooling &amp; Trading Co. All rights reserved.</p>
+        <nav aria-label="Legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
