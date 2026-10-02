@@ -1,0 +1,45 @@
+    <!-- ======================= Request quotation form ======================= -->
+    <section class="rq" id="quotation" aria-labelledby="rq-title" data-draw>
+      <svg class="rq__lines rq__lines--left" viewBox="-280 0 912 394" aria-hidden="true">
+        <defs>
+          <linearGradient id="rq-a" x1="-280" y1="0" x2="632" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".5577" stop-color="#18B6D5" stop-opacity=".1"/><stop offset="1" stop-color="#fff"/></linearGradient>
+        </defs>
+        <path pathLength="1" stroke="url(#rq-a)" d="M-280 29.8H-51.9c14.9 0 27 12.1 27 27s12.1 27 27 27h281.1c16.6 0 30-13.4 30-30V31c0-16.6 13.4-30 30-30h84.4c16.6 0 30 13.4 30 30v78c0 16.6 13.4 30 30 30H632"/>
+        <path pathLength="1" stroke="url(#rq-a)" d="M632 393H433.1c-16.6 0-30-13.4-30-30V253c0-16.6-13.4-30-30-30H83.7c-10.4 0-18.8 8.4-18.8 18.8s-8.4 18.8-18.8 18.8h-95.6c-16.6 0-30 13.4-30 30v9.5c0 16.6-13.4 30-30 30H-280"/>
+      </svg>
+      <svg class="rq__lines rq__lines--right" viewBox="0 0 1013 457" aria-hidden="true">
+        <defs>
+          <linearGradient id="rq-b" x1="0" y1="0" x2="1013" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".5577" stop-color="#18B6D5" stop-opacity=".1"/><stop offset="1" stop-color="#fff"/></linearGradient>
+        </defs>
+        <path pathLength="1" stroke="url(#rq-b)" d="M0 29.8h228.1c14.9 0 27 12.1 27 27s12.1 27 27 27h281.1c16.6 0 30-13.4 30-30V31c0-16.6 13.4-30 30-30h84.4c16.6 0 30 13.4 30 30v78c0 16.6 13.4 30 30 30H912"/>
+        <path pathLength="1" stroke="url(#rq-b)" d="M101 346.8h228.1c14.9 0 27 12.1 27 27s12.1 27 27 27h281.1c16.6 0 30-13.4 30-30V348c0-16.6 13.4-30 30-30h84.4c16.6 0 30 13.4 30 30v78c0 16.6 13.4 30 30 30H1013"/>
+        <path pathLength="1" stroke="url(#rq-b)" d="M912 323H713.1c-16.6 0-30-13.4-30-30V183c0-16.6-13.4-30-30-30H363.7c-10.4 0-18.8 8.4-18.8 18.8s-8.4 18.8-18.8 18.8h-95.6c-16.6 0-30 13.4-30 30v9.5c0 16.6-13.4 30-30 30H0"/>
+      </svg>
+
+      <form class="rq__card" data-fake-form data-reveal-up>
+        <div class="rq__head">
+          <p class="rq__overline">Request Quotation</p>
+          <h2 class="h-3" id="rq-title">Get In Touch Now</h2>
+        </div>
+        <div class="rq__row">
+          <label class="field"><span class="visually-hidden">First name</span><input type="text" name="first" placeholder="First Name" autocomplete="given-name" required></label>
+          <label class="field"><span class="visually-hidden">Last name</span><input type="text" name="last" placeholder="Last Name" autocomplete="family-name" required></label>
+        </div>
+        <label class="field"><span class="visually-hidden">Company name</span><input type="text" name="company" placeholder="Company Name" autocomplete="organization"></label>
+        <label class="field"><span class="visually-hidden">Mobile number</span><input type="tel" name="phone" placeholder="Mobile Number" autocomplete="tel" required></label>
+        <label class="field"><span class="visually-hidden">Email address</span><input type="email" name="email" placeholder="Email Address" autocomplete="email" required></label>
+        <label class="field field--select">
+          <span class="visually-hidden">City</span>
+          <select name="city" required>
+            <option value="" selected disabled>Choose City</option>
+            <option>Riyadh</option><option>Jeddah</option><option>Al Madinah</option><option>Makkah</option><option>Dammam</option><option>Khobar</option>
+          </select>
+          <svg aria-hidden="true"><use href="assets/img/icons.svg#i-caret"/></svg>
+        </label>
+        <button class="btn btn--primary btn--lg btn--block" type="submit">
+          <span>Submit</span>
+          <svg class="btn__arrow" aria-hidden="true"><use href="assets/img/icons.svg#i-arrow"/></svg>
+        </button>
+        <p class="form-note" data-form-note hidden>Thanks — our engineering team will be in touch shortly.</p>
+      </form>
+    </section>

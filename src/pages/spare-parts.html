@@ -1,0 +1,216 @@
+<!--meta
+title: Genuine Spare Parts — Zilal Cooling
+description: Genuine refrigeration spare parts from Bitzer, Danfoss, Castel, Dorin, Kriwan and Refco — filter by category or brand.
+nav: spare-parts
+quote: yes
+body: page-spare-parts
+-->
+    <!-- ============================== Hero ============================== -->
+    <section class="page-hero spp-hero">
+      <div class="container">
+        <div class="spp-hero__copy">
+          <p class="eyebrow" data-mask><span>Spare Parts</span></p>
+          <h1 class="h-display page-hero__title" data-mask><span>Genuine Spare Parts</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Filter + parts grid =========================
+      Desktop: the filter is a sticky side panel. Phone: the same panel becomes
+      a bottom sheet, opened from a frosted bar fixed to the foot of the screen.
+    -->
+    <section class="spp" data-parts>
+      <div class="container spp__layout">
+        <div class="spp__veil" data-sheet-close aria-hidden="true"></div>
+        <aside class="spp-filter" id="parts-filter" aria-label="Filter parts" data-sheet>
+          <div class="spp-filter__head">
+            <h2 class="spp-filter__title">Filter Items</h2>
+            <button class="spp-filter__close" type="button" aria-label="Close filters" data-sheet-close><svg aria-hidden="true"><use href="assets/img/icons.svg#i-plus"/></svg></button>
+          </div>
+          <div class="spp-filter__groups">
+            <details class="spp-group" open>
+              <summary><span>Part Category</span><svg class="spp-group__icon spp-group__icon--plus" aria-hidden="true"><use href="assets/img/icons.svg#i-plus"/></svg><svg class="spp-group__icon spp-group__icon--minus" aria-hidden="true"><use href="assets/img/icons.svg#i-minus"/></svg></summary>
+              <ul>
+              <li><label class="check"><input type="checkbox" name="cat" value="cooling"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Cooling Components</span></label></li>
+              <li><label class="check"><input type="checkbox" name="cat" value="valves"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Valves &amp; Flow Control</span></label></li>
+              <li><label class="check"><input type="checkbox" name="cat" value="electrical"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Electrical Components</span></label></li>
+              <li><label class="check"><input type="checkbox" name="cat" value="controls"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Thermostats &amp; Controls</span></label></li>
+              <li><label class="check"><input type="checkbox" name="cat" value="compressors"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Compressors &amp; Components</span></label></li>
+              </ul>
+            </details>
+            <details class="spp-group">
+              <summary><span>Machine Models</span><svg class="spp-group__icon spp-group__icon--plus" aria-hidden="true"><use href="assets/img/icons.svg#i-plus"/></svg><svg class="spp-group__icon spp-group__icon--minus" aria-hidden="true"><use href="assets/img/icons.svg#i-minus"/></svg></summary>
+              <ul>
+              <li><label class="check"><input type="checkbox" name="brand" value="bitzer"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Bitzer</span></label></li>
+              <li><label class="check"><input type="checkbox" name="brand" value="castel"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Castel</span></label></li>
+              <li><label class="check"><input type="checkbox" name="brand" value="danfoss"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Danfoss</span></label></li>
+              <li><label class="check"><input type="checkbox" name="brand" value="dorin"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Dorin</span></label></li>
+              <li><label class="check"><input type="checkbox" name="brand" value="kriwan"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Kriwan</span></label></li>
+              <li><label class="check"><input type="checkbox" name="brand" value="refco"><span class="check__box" aria-hidden="true"><svg><use href="assets/img/icons.svg#i-check"/></svg></span><span>Refco</span></label></li>
+              </ul>
+            </details>
+          </div>
+          <div class="spp-filter__foot">
+            <button class="btn btn--line btn--md" type="button" data-filter-clear>Clear All</button>
+            <button class="btn btn--primary btn--md" type="button" data-sheet-close>Show <span data-parts-count>24</span> Parts</button>
+          </div>
+        </aside>
+
+        <div class="spp__grid" id="parts-grid" aria-live="polite">
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/valve-plate.jpg" alt="Semi-hermetic Valve Plate" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Semi-hermetic Valve Plate</h3>
+            <p class="part__pn">PN 302 231 02</p>
+          </article>
+          <article class="part" data-cat="controls" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/oil-pressure-control.jpg" alt="Oil Pressure Control" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Oil Pressure Control</h3>
+            <p class="part__pn">MP 55 / 060B017166</p>
+          </article>
+          <article class="part" data-cat="valves" data-brand="castel">
+            <img class="part__img" src="assets/img/parts/solenoid-valve.jpg" alt="Solenoid Valve Assembly" width="800" height="584" loading="lazy">
+            <p class="part__brand">CASTEL</p>
+            <h3 class="part__name">Solenoid Valve Assembly</h3>
+            <p class="part__pn">1064/3A6</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="dorin">
+            <img class="part__img" src="assets/img/parts/crankcase-heater.jpg" alt="Crankcase Heater" width="800" height="584" loading="lazy">
+            <p class="part__brand">DORIN</p>
+            <h3 class="part__name">Crankcase Heater</h3>
+            <p class="part__pn">RHC-230-70</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="kriwan">
+            <img class="part__img" src="assets/img/parts/motor-protector.jpg" alt="Motor Protector Module" width="800" height="584" loading="lazy">
+            <p class="part__brand">KRIWAN</p>
+            <h3 class="part__name">Motor Protector Module</h3>
+            <p class="part__pn">INT69 22A481</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="refco">
+            <img class="part__img" src="assets/img/parts/vacuum-gauge.jpg" alt="Digital Vacuum Gauge" width="800" height="584" loading="lazy">
+            <p class="part__brand">REFCO</p>
+            <h3 class="part__name">Digital Vacuum Gauge</h3>
+            <p class="part__pn">DIGIMON-SE</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/filter-drier-core.jpg" alt="Filter Drier Core" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Filter Drier Core</h3>
+            <p class="part__pn">48-DC</p>
+          </article>
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/gasket-kit.jpg" alt="Compressor Gasket Kit" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Compressor Gasket Kit</h3>
+            <p class="part__pn">372 110 01</p>
+          </article>
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/valve-plate.jpg" alt="Semi-hermetic Valve Plate" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Semi-hermetic Valve Plate</h3>
+            <p class="part__pn">PN 302 231 02</p>
+          </article>
+          <article class="part" data-cat="controls" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/oil-pressure-control.jpg" alt="Oil Pressure Control" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Oil Pressure Control</h3>
+            <p class="part__pn">MP 55 / 060B017166</p>
+          </article>
+          <article class="part" data-cat="valves" data-brand="castel">
+            <img class="part__img" src="assets/img/parts/solenoid-valve.jpg" alt="Solenoid Valve Assembly" width="800" height="584" loading="lazy">
+            <p class="part__brand">CASTEL</p>
+            <h3 class="part__name">Solenoid Valve Assembly</h3>
+            <p class="part__pn">1064/3A6</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="dorin">
+            <img class="part__img" src="assets/img/parts/crankcase-heater.jpg" alt="Crankcase Heater" width="800" height="584" loading="lazy">
+            <p class="part__brand">DORIN</p>
+            <h3 class="part__name">Crankcase Heater</h3>
+            <p class="part__pn">RHC-230-70</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="kriwan">
+            <img class="part__img" src="assets/img/parts/motor-protector.jpg" alt="Motor Protector Module" width="800" height="584" loading="lazy">
+            <p class="part__brand">KRIWAN</p>
+            <h3 class="part__name">Motor Protector Module</h3>
+            <p class="part__pn">INT69 22A481</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="refco">
+            <img class="part__img" src="assets/img/parts/vacuum-gauge.jpg" alt="Digital Vacuum Gauge" width="800" height="584" loading="lazy">
+            <p class="part__brand">REFCO</p>
+            <h3 class="part__name">Digital Vacuum Gauge</h3>
+            <p class="part__pn">DIGIMON-SE</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/filter-drier-core.jpg" alt="Filter Drier Core" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Filter Drier Core</h3>
+            <p class="part__pn">48-DC</p>
+          </article>
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/gasket-kit.jpg" alt="Compressor Gasket Kit" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Compressor Gasket Kit</h3>
+            <p class="part__pn">372 110 01</p>
+          </article>
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/valve-plate.jpg" alt="Semi-hermetic Valve Plate" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Semi-hermetic Valve Plate</h3>
+            <p class="part__pn">PN 302 231 02</p>
+          </article>
+          <article class="part" data-cat="controls" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/oil-pressure-control.jpg" alt="Oil Pressure Control" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Oil Pressure Control</h3>
+            <p class="part__pn">MP 55 / 060B017166</p>
+          </article>
+          <article class="part" data-cat="valves" data-brand="castel">
+            <img class="part__img" src="assets/img/parts/solenoid-valve.jpg" alt="Solenoid Valve Assembly" width="800" height="584" loading="lazy">
+            <p class="part__brand">CASTEL</p>
+            <h3 class="part__name">Solenoid Valve Assembly</h3>
+            <p class="part__pn">1064/3A6</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="dorin">
+            <img class="part__img" src="assets/img/parts/crankcase-heater.jpg" alt="Crankcase Heater" width="800" height="584" loading="lazy">
+            <p class="part__brand">DORIN</p>
+            <h3 class="part__name">Crankcase Heater</h3>
+            <p class="part__pn">RHC-230-70</p>
+          </article>
+          <article class="part" data-cat="electrical" data-brand="kriwan">
+            <img class="part__img" src="assets/img/parts/motor-protector.jpg" alt="Motor Protector Module" width="800" height="584" loading="lazy">
+            <p class="part__brand">KRIWAN</p>
+            <h3 class="part__name">Motor Protector Module</h3>
+            <p class="part__pn">INT69 22A481</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="refco">
+            <img class="part__img" src="assets/img/parts/vacuum-gauge.jpg" alt="Digital Vacuum Gauge" width="800" height="584" loading="lazy">
+            <p class="part__brand">REFCO</p>
+            <h3 class="part__name">Digital Vacuum Gauge</h3>
+            <p class="part__pn">DIGIMON-SE</p>
+          </article>
+          <article class="part" data-cat="cooling" data-brand="danfoss">
+            <img class="part__img" src="assets/img/parts/filter-drier-core.jpg" alt="Filter Drier Core" width="800" height="584" loading="lazy">
+            <p class="part__brand">DANFOSS</p>
+            <h3 class="part__name">Filter Drier Core</h3>
+            <p class="part__pn">48-DC</p>
+          </article>
+          <article class="part" data-cat="compressors" data-brand="bitzer">
+            <img class="part__img" src="assets/img/parts/gasket-kit.jpg" alt="Compressor Gasket Kit" width="800" height="584" loading="lazy">
+            <p class="part__brand">BITZER</p>
+            <h3 class="part__name">Compressor Gasket Kit</h3>
+            <p class="part__pn">372 110 01</p>
+          </article>
+          <p class="spp__empty">No parts match these filters. <button type="button" data-filter-clear>Clear filters</button></p>
+        </div>
+      </div>
+
+      <div class="spp-bar" data-parts-bar>
+        <p class="spp-bar__count"><strong data-parts-count>24</strong> parts</p>
+        <button class="spp-bar__btn" type="button" aria-controls="parts-filter" aria-expanded="false" data-sheet-open>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+          <span>Filter</span>
+          <span class="spp-bar__badge" data-filter-badge hidden>0</span>
+        </button>
+      </div>
+    </section>
